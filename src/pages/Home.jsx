@@ -10,7 +10,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen w-screen bg-gray-100">
+    <div className="flex flex-col justify-center items-center h-screen w-screen">
       <h1 className="text-3xl font-bold mb-6">Scan Product</h1>
       <div className="flex flex-col justify-center items-center">
         <BarcodeScanner onScan={handleScan} />
